@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.same_cdi"
+		name="SAME_CDI"
+		version="0.0.0"
+		provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions></extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPL-2.0-or-later</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.same_cdi</source>
+		<summary lang="en_GB">SAME_CDI</summary>
+		<description lang="en_GB">SAME_CDI is a libretro core to play CD-i games. This is a fork and modification of the MAME libretro core.</description>
+	</extension>
+</addon>
