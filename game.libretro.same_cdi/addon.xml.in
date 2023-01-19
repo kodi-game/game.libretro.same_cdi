@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.same_cdi"
-		name="SAME_CDI"
-		version="0.0.0"
-		provider-name="Libretro">
+		name="Philips - CDi (SAME CDi)"
+		version="0.239.0.1"
+		provider-name="MAMEdev">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms></platforms>
-		<extensions></extensions>
+		<extensions>chd|iso|cue</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<requires_opengl>false</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<license>GPL-2.0-or-later</license>
+		<license>GPLv2+</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.same_cdi</source>
 		<summary lang="en_GB">SAME_CDI</summary>

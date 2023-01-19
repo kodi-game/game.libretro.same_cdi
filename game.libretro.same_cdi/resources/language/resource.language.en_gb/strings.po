@@ -1,0 +1,93 @@
+# game.libretro.same_cdi language file
+# Addon Name: game.libretro.same_cdi
+# Addon id: game.libretro.same_cdi
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.same_cdi\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2023-01-19 01:18i\n"
+"PO-Revision-Date: 2023-01-19 01:18i\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (United Kingdom) (https://kodi.weblate.cloud/languages/en_gb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_gb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid "SAME_CDI"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "SAME_CDI is a libretro core to play CD-i games. This is a fork and modification of the MAME libretro core."
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Read configuration"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Write configuration"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Save state naming"
+msgstr ""
+
+msgctxt "#30004"
+msgid "NVRAM Saves per game"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Auto save/load states"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Enable in-game mouse"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Lightgun mode"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Profile Buttons according to games (Restart)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Enable throttle"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Enable cheats"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Main CPU Overclock"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Alternate render method"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Boot from CLI"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Resolution"
+msgstr ""
+
+msgctxt "#30015"
+msgid "MAME INI Paths"
+msgstr ""
+
+msgctxt "#30016"
+msgid "MAME Joystick 4-way simulation"
+msgstr ""

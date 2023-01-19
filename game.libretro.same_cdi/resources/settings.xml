@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="same_cdi_read_config" values="disabled|enabled" default="disabled"/>
+		<setting label="30002" type="select" id="same_cdi_write_config" values="disabled|enabled" default="disabled"/>
+		<setting label="30003" type="select" id="same_cdi_saves" values="game|system" default="game"/>
+		<setting label="30004" type="select" id="same_cdi_nvram_saves" values="enabled|disabled" default="enabled"/>
+		<setting label="30005" type="select" id="same_cdi_auto_save" values="disabled|enabled" default="disabled"/>
+		<setting label="30006" type="select" id="same_cdi_mouse_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30007" type="select" id="same_cdi_lightgun_mode" values="none|touchscreen|lightgun" default="none"/>
+		<setting label="30008" type="select" id="same_cdi_buttons_profiles" values="enabled|disabled" default="enabled"/>
+		<setting label="30009" type="select" id="same_cdi_throttle" values="disabled|enabled" default="disabled"/>
+		<setting label="30010" type="select" id="same_cdi_cheats_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30011" type="select" id="same_cdi_cpu_overclock" values="default|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|60|65|70|75|80|85|90|95|100|105|110|115|120|125|130|135|140|145|150" default="default"/>
+		<setting label="30012" type="select" id="same_cdi_alternate_renderer" values="disabled|enabled" default="disabled"/>
+		<setting label="30013" type="select" id="same_cdi_boot_from_cli" values="disabled|enabled" default="disabled"/>
+		<setting label="30014" type="select" id="same_cdi_altres" values="640x480|640x360|800x600|800x450|960x720|960x540|1024x768|1024x576|1280x960|1280x720|1600x1200|1600x900|1440x1080|1920x1080|1920x1440|2560x1440|2880x2160|3840x2160" default="640x480"/>
+		<setting label="30015" type="select" id="same_cdi_mame_paths_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30016" type="select" id="same_cdi_mame_4way_enable" values="disabled|4way|strict|qbert" default="disabled"/>
+	</category>
+</settings>
