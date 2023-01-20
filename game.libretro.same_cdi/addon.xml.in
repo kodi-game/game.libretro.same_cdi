@@ -18,6 +18,9 @@
 		<license>GPLv2+</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.same_cdi</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 		<summary lang="en_GB">SAME_CDI</summary>
 		<description lang="en_GB">SAME_CDI is a libretro core to play CD-i games. This is a fork and modification of the MAME libretro core.</description>
 	</extension>
