@@ -13,7 +13,7 @@ GPLv2+
 
 ### Icon
 
-![Icon](game.libretro.same_cdi/resources/icon.png)
+![Philips - CDi (SAME CDi) icon](game.libretro.same_cdi/resources/icon.png)
 
 ### Fanart
 
