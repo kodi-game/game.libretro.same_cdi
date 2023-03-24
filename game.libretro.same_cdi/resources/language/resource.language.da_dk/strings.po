@@ -18,8 +18,8 @@ msgstr ""
 "X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
-msgid "SAME_CDI"
-msgstr "SAME_CDI"
+msgid "Philips - CDi (SAME CDi)"
+msgstr ""
 
 msgctxt "Addon Description"
 msgid "SAME_CDI is a libretro core to play CD-i games. This is a fork and modification of the MAME libretro core."
@@ -92,3 +92,7 @@ msgstr "MAME INI stier"
 msgctxt "#30016"
 msgid "MAME Joystick 4-way simulation"
 msgstr "Simulering af MAME 4-vejs joystick"
+
+#~ msgctxt "Addon Summary"
+#~ msgid "SAME_CDI"
+#~ msgstr "SAME_CDI"
