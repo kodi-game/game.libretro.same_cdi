@@ -22,6 +22,7 @@
 			<icon>resources/icon.png</icon>
 		</assets>
 		<summary lang="en_GB">Philips - CDi (SAME CDi)</summary>
+		<summary lang="es_ES">Philips - CDi (SAME CDi)</summary>
 		<description lang="da_DK">Same_CDI er en libretro-kerne til at spille CD-I-spil. Dette er en fork og ændring af Mame Libretro Core.</description>
 		<description lang="de_DE">SAME_CDI ist ein libretro-Core zum Spielen von CD-i-Spielen. Dies ist ein Fork und eine Modifikation von MAME libretro core.</description>
 		<description lang="en_GB">SAME_CDI is a libretro core to play CD-i games. This is a fork and modification of the MAME libretro core.</description>
