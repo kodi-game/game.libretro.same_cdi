@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.same_cdi"
 		name="Philips - CDi (SAME CDi)"
-		version="0.239.0.5"
+		version="0.239.0.6"
 		provider-name="MAMEdev">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
