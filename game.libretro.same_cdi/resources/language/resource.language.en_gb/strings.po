@@ -24,9 +24,7 @@ msgctxt "Addon Description"
 msgid "SAME_CDI is a libretro core to play CD-i games. This is a fork and modification of the MAME libretro core."
 msgstr ""
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr ""
+# Empty string with ID 30000
 
 msgctxt "#30001"
 msgid "Read configuration"
