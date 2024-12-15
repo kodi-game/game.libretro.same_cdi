@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "SAME_CDI is a libretro core to play CD-i games. This is a fork and modification of the MAME libretro core."
 msgstr "Same_CDI er en libretro-kerne til at spille CD-I-spil. Dette er en fork og ændring af Mame Libretro Core."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Indstillinger"
-
 msgctxt "#30001"
 msgid "Read configuration"
 msgstr "Læs konfiguration"
@@ -92,6 +88,10 @@ msgstr "MAME INI stier"
 msgctxt "#30016"
 msgid "MAME Joystick 4-way simulation"
 msgstr "Simulering af MAME 4-vejs joystick"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"
 
 #~ msgctxt "Addon Summary"
 #~ msgid "SAME_CDI"
