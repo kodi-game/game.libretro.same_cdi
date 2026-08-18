@@ -1,1 +1,1 @@
-same_cdi https://github.com/libretro/same_cdi/archive/8a3c2acdbeb57aea4e74aeadaa703fdc5c9c5de9.tar.gz
+same_cdi https://github.com/libretro/same_cdi/archive/418be509a15342d3fc158a3e83c5b70c7940cd4b.tar.gz
