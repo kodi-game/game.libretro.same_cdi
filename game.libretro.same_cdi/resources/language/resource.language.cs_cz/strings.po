@@ -88,3 +88,19 @@ msgstr "Cesty k INI souborům MAME"
 msgctxt "#30016"
 msgid "MAME Joystick 4-way simulation"
 msgstr "Simulace čtyřsměrného joysticku MAME"
+
+msgctxt "#30017"
+msgid "System"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Advanced"
+msgstr ""
