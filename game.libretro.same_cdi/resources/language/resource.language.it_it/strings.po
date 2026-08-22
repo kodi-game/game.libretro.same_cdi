@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.same_cdi\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2023-01-19 01:18i\n"
-"PO-Revision-Date: 2026-08-15 22:36+0000\n"
+"PO-Revision-Date: 2026-08-22 00:08+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-same_cdi/it_it/>\n"
 "Language: it_it\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 msgctxt "Addon Summary"
 msgid "Philips - CDi (SAME CDi)"
-msgstr ""
+msgstr "Philips - CDi (SAME CDi)"
 
 msgctxt "Addon Description"
 msgid "SAME_CDI is a libretro core to play CD-i games. This is a fork and modification of the MAME libretro core."
-msgstr ""
+msgstr "SAME_CDI è un core libretro per giocare ai giochi CD-i. Si tratta di un fork e di una modifica del core libretro MAME."
 
 msgctxt "#30001"
 msgid "Read configuration"
@@ -35,15 +35,15 @@ msgstr "Scrivi configurazione"
 
 msgctxt "#30003"
 msgid "Save state naming"
-msgstr ""
+msgstr "Denominazione salvataggi rapidi"
 
 msgctxt "#30004"
 msgid "NVRAM Saves per game"
-msgstr ""
+msgstr "Salvataggi NVRAM per gioco"
 
 msgctxt "#30005"
 msgid "Auto save/load states"
-msgstr ""
+msgstr "Salvataggio/caricamento automatico salvataggi rapidi"
 
 msgctxt "#30006"
 msgid "Enable in-game mouse"
@@ -55,11 +55,11 @@ msgstr "Modalità pistola leggera"
 
 msgctxt "#30008"
 msgid "Profile Buttons according to games (Restart)"
-msgstr "Pulsanti profilo in base ai giochi (riavvio)"
+msgstr "Pulsanti profilo in base ai giochi (richiede riavvio)"
 
 msgctxt "#30009"
 msgid "Enable throttle"
-msgstr ""
+msgstr "Abilita limitazione velocità"
 
 msgctxt "#30010"
 msgid "Enable cheats"
@@ -75,7 +75,7 @@ msgstr "Metodo di rendering alternativo"
 
 msgctxt "#30013"
 msgid "Boot from CLI"
-msgstr ""
+msgstr "Avvia da CLI"
 
 msgctxt "#30014"
 msgid "Resolution"
@@ -87,7 +87,7 @@ msgstr "Percorsi MAME INI"
 
 msgctxt "#30016"
 msgid "MAME Joystick 4-way simulation"
-msgstr ""
+msgstr "Simulazione joystick a 4 direzioni MAME"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
