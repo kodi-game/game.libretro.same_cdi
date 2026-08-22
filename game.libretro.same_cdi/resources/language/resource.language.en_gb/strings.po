@@ -89,3 +89,19 @@ msgstr ""
 msgctxt "#30016"
 msgid "MAME Joystick 4-way simulation"
 msgstr ""
+
+msgctxt "#30017"
+msgid "System"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Advanced"
+msgstr ""

@@ -1,21 +1,260 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-	<category label="128">
-		<setting label="30001" type="select" id="same_cdi_read_config" values="disabled|enabled" default="disabled"/>
-		<setting label="30002" type="select" id="same_cdi_write_config" values="disabled|enabled" default="disabled"/>
-		<setting label="30003" type="select" id="same_cdi_saves" values="game|system" default="game"/>
-		<setting label="30004" type="select" id="same_cdi_nvram_saves" values="enabled|disabled" default="enabled"/>
-		<setting label="30005" type="select" id="same_cdi_auto_save" values="disabled|enabled" default="disabled"/>
-		<setting label="30006" type="select" id="same_cdi_mouse_enable" values="disabled|enabled" default="disabled"/>
-		<setting label="30007" type="select" id="same_cdi_lightgun_mode" values="none|touchscreen|lightgun" default="none"/>
-		<setting label="30008" type="select" id="same_cdi_buttons_profiles" values="enabled|disabled" default="enabled"/>
-		<setting label="30009" type="select" id="same_cdi_throttle" values="disabled|enabled" default="disabled"/>
-		<setting label="30010" type="select" id="same_cdi_cheats_enable" values="disabled|enabled" default="disabled"/>
-		<setting label="30011" type="select" id="same_cdi_cpu_overclock" values="default|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|60|65|70|75|80|85|90|95|100|105|110|115|120|125|130|135|140|145|150" default="default"/>
-		<setting label="30012" type="select" id="same_cdi_alternate_renderer" values="disabled|enabled" default="disabled"/>
-		<setting label="30013" type="select" id="same_cdi_boot_from_cli" values="disabled|enabled" default="disabled"/>
-		<setting label="30014" type="select" id="same_cdi_altres" values="640x480|640x360|800x600|800x450|960x720|960x540|1024x768|1024x576|1280x960|1280x720|1600x1200|1600x900|1440x1080|1920x1080|1920x1440|2560x1440|2880x2160|3840x2160" default="640x480"/>
-		<setting label="30015" type="select" id="same_cdi_mame_paths_enable" values="disabled|enabled" default="disabled"/>
-		<setting label="30016" type="select" id="same_cdi_mame_4way_enable" values="disabled|4way|strict|qbert" default="disabled"/>
-	</category>
+<settings version="1">
+	<section id="game.libretro.same_cdi">
+		<category id="system" label="30017">
+			<group id="1">
+				<setting id="same_cdi_read_config" type="string" label="30001">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_write_config" type="string" label="30002">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_saves" type="string" label="30003">
+					<level>0</level>
+					<default>game</default>
+					<constraints>
+						<options>
+							<option>game</option>
+							<option>system</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_nvram_saves" type="string" label="30004">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_auto_save" type="string" label="30005">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_boot_from_cli" type="string" label="30013">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_mame_paths_enable" type="string" label="30015">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30018">
+			<group id="1">
+				<setting id="same_cdi_alternate_renderer" type="string" label="30012">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_altres" type="string" label="30014">
+					<level>0</level>
+					<default>640x480</default>
+					<constraints>
+						<options>
+							<option>640x360</option>
+							<option>640x480</option>
+							<option>800x600</option>
+							<option>800x450</option>
+							<option>960x720</option>
+							<option>960x540</option>
+							<option>1024x768</option>
+							<option>1024x576</option>
+							<option>1280x960</option>
+							<option>1280x720</option>
+							<option>1600x1200</option>
+							<option>1600x900</option>
+							<option>1440x1080</option>
+							<option>1920x1080</option>
+							<option>1920x1440</option>
+							<option>2560x1440</option>
+							<option>2880x2160</option>
+							<option>3840x2160</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30019">
+			<group id="1">
+				<setting id="same_cdi_mouse_enable" type="string" label="30006">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_lightgun_mode" type="string" label="30007">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option>none</option>
+							<option>touchscreen</option>
+							<option>lightgun</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_buttons_profiles" type="string" label="30008">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_mame_4way_enable" type="string" label="30016">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>disabled</option>
+							<option>4way</option>
+							<option>strict</option>
+							<option>qbert</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="advanced" label="30020">
+			<group id="1">
+				<setting id="same_cdi_throttle" type="string" label="30009">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_cheats_enable" type="string" label="30010">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_cpu_overclock" type="string" label="30011">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option>default</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+							<option>105</option>
+							<option>110</option>
+							<option>115</option>
+							<option>120</option>
+							<option>125</option>
+							<option>130</option>
+							<option>135</option>
+							<option>140</option>
+							<option>145</option>
+							<option>150</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
 </settings>
