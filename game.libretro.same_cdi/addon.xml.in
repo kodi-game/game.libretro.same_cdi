@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.same_cdi"
 		name="Philips - CDi (SAME CDi)"
-		version="0.287.0.18"
+		version="0.287.0.19"
 		provider-name="MAMEdev">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
-		<platforms></platforms>
+		<platforms>Philips - CDi</platforms>
 		<extensions>chd|iso|cue</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
