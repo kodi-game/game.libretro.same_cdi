@@ -305,6 +305,22 @@ msgctxt "#30070"
 msgid "150"
 msgstr ""
 
+msgctxt "#30071"
+msgid "Video standard (Restart)"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Select the Mono-I player's television standard. Restart content after changing this option."
+msgstr ""
+
+msgctxt "#30073"
+msgid "PAL (50 Hz)"
+msgstr ""
+
+msgctxt "#30074"
+msgid "NTSC (60 Hz)"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Asetukset"
