@@ -3,6 +3,17 @@
 	<section id="game.libretro.same_cdi">
 		<category id="system" label="30017">
 			<group id="1">
+				<setting id="same_cdi_video_standard" type="string" label="30071" help="30072">
+					<level>0</level>
+					<default>pal</default>
+					<constraints>
+						<options>
+							<option label="30073">pal</option>
+							<option label="30074">ntsc</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
 				<setting id="same_cdi_read_config" type="string" label="30001">
 					<level>0</level>
 					<default>disabled</default>

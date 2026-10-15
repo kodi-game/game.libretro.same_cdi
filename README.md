@@ -6,7 +6,7 @@ SAME_CDI is a libretro core to play CD-i games. This is a fork and modification 
 
 ### License
 
-GPLv2+
+GPLv3
 
 ### Icon
 
